@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Breadcrumbs from "./ui/Breadcrumbs";
-import AboutMe from "./ui/aboutme";
+import AboutMe from "./ui/Aboutme";
 import Experience from "./ui/Expereience";
 import TechStack from "./ui/MyTechStack";
 
