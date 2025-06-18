@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
 const AboutMe = () => {
-  const contactEmail = "anushka.rawat.hld@gmail.com";
+  const contactEmail = "Khushisaxena9846@gmail.com";
 
   return (
     <motion.div
@@ -136,22 +136,7 @@ const AboutMe = () => {
               ></div>
 
               <p style={{ color: "#d4d4d8", lineHeight: "1.6" }}>
-                Hey, I&apos;m Anushka Rawat, A dedicated and innovative Frontend
-                Developer with a strong foundation in modern web technologies,
-                including React.js, Redux, HTML/CSS, JavaScript, and Tailwind
-                CSS. Proficient in building responsive and user-friendly
-                interfaces with a keen eye for design and seamless user
-                experience. Experienced in integrating RESTful APIs and
-                collaborating within Agile development teams to deliver
-                high-impact solutions. In addition to frontend expertise, I
-                bring hands-on experience with backend technologies like Spring
-                Boot, AWS services (EC2, S3), and Docker, allowing me to
-                effectively contribute to full-stack development when needed. I
-                am passionate about transforming business requirements into
-                scalable technical solutions and thrive in fast-paced
-                environments where problem-solving and innovation are key. Eager
-                to contribute to dynamic teams and launch impactful projects
-                that drive value and user engagement.
+                Hey, I&apos;m Khushi, Dynamic and results-driven Software Engineer with a strong background in mobile application development, specializing in React Native and Android platforms. Experienced in building scalable, high-performance applications integrated with robust backend services using Node.js and GraphQL. Proficient in Agile methodologies and cross-functional collaboration, with a proven track record of delivering maintainable, user-focused solutions. Passionate about clean architecture, CI/CD practices, and mentoring team members to foster a culture of code quality and continuous improvement.
               </p>
             </motion.div>
 
@@ -168,17 +153,17 @@ const AboutMe = () => {
             >
               {[
                 {
-                  href: "https://github.com/Anushkrawat16",
+                  href: "https://github.com/khushi9846",
                   icon: <FaGithub size={20} color="white" />,
                   label: "GitHub",
                 },
+                // {
+                //   href: "https://x.com/Anushkaarawat_",
+                //   icon: <FaXTwitter size={20} color="white" />,
+                //   label: "Twitter",
+                // },
                 {
-                  href: "https://x.com/Anushkaarawat_",
-                  icon: <FaXTwitter size={20} color="white" />,
-                  label: "Twitter",
-                },
-                {
-                  href: "https://www.linkedin.com/in/anushka-rawat23160900/",
+                  href: "https://www.linkedin.com/in/khushi-saxena-589a981b8/",
                   icon: <FaLinkedin size={20} color="white" />,
                   label: "LinkedIn",
                 },

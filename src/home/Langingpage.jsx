@@ -7,7 +7,7 @@ import BackgroundImage from "../backgroundimg.jsx";
 import { HiOutlineMail } from "react-icons/hi";
 const Hero = () => {
   const [time, setTime] = useState(new Date());
-  const contactEmail = "anushka.rawat.hld@gmail.com";
+  const contactEmail = "khushisaxena9846@gmail.com";
 
   useEffect(() => {
     document.body.style.overflow = "hidden";
@@ -64,7 +64,7 @@ const Hero = () => {
           animate={{ y: 0 }}
           transition={{ delay: 0.2, duration: 0.5 }}
         >
-          Hello, I&apos;m Anushka Rawat
+          Hello, I&apos;m Khushi Saxena
         </motion.p>
         <motion.p
           style={{
@@ -80,7 +80,7 @@ const Hero = () => {
           animate={{ y: 0 }}
           transition={{ delay: 0.4, duration: 0.5 }}
         >
-          A Frontend Developer
+          A Software Engineer
         </motion.p>
         <motion.p
           style={{
@@ -115,7 +115,7 @@ const Hero = () => {
           transition={{ delay: 0.8, duration: 0.5 }}
         >
           <a
-            href="https://github.com/Anushkrawat16"
+            href="https://github.com/khushi9846"
             target="_blank"
             aria-label="GitHub Profile"
             style={{
@@ -128,7 +128,7 @@ const Hero = () => {
           >
             <FiGithub size={20} style={{ color: "white", marginRight: "2px" }} />
           </a>
-          <a
+          {/* <a
             href="https://x.com/Anushkaarawat_"
             target="_blank"
             aria-label="Twitter Profile"
@@ -141,9 +141,9 @@ const Hero = () => {
             }}
           >
             <FaXTwitter size={20} style={{ color: "white" }} />
-          </a>
+          </a> */}
           <a
-            href="https://www.linkedin.com/in/anushka-rawat23160900/"
+            href="https://www.linkedin.com/in/khushi-saxena-589a981b8/"
             target="_blank"
             aria-label="LinkedIn Profile"
             style={{
@@ -170,7 +170,7 @@ const Hero = () => {
       transition={{ delay: 1.0, duration: 0.6 }}
     >
       <a
-        href={`mailto:${contactEmail}?subject=Work%20Inquiry%20from%20Portfolio&body=Hi%20Anushka,%0A%0AI%20visited%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20potential%20opportunity.`}
+        href={`mailto:${contactEmail}?subject=Work%20Inquiry%20from%20Portfolio&body=Hi%20Khushi,%0A%0AI%20visited%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20potential%20opportunity.`}
         style={{ position: "relative", display: "inline-block" ,textDecoration: "none", }}
       >
         <div

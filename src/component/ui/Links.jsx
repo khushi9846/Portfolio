@@ -25,16 +25,16 @@ import { motion } from "framer-motion";
 const links = [
   {
     name: "Github",
-    username: "Anushkrawat16",
-    link: "https://github.com/Anushkrawat16",
+    username: "khushi9846",
+    link: "https://github.com/khushi9846",
     icon: <FaGithub style={{ width: 20, height: 20 }} />,
   },
-  {
-    name: "Twitter",
-    username: "Anushkaarawat_",
-    link: "https://x.com/Anushkaarawat_",
-    icon: <FaXTwitter style={{ width: 20, height: 20 }} />,
-  },
+  // {
+  //   name: "Twitter",
+  //   username: "Anushkaarawat_",
+  //   link: "https://x.com/Anushkaarawat_",
+  //   icon: <FaXTwitter style={{ width: 20, height: 20 }} />,
+  // },
 //   {
 //     name: "Discord",
 //     username: "adityaj07",
@@ -43,8 +43,8 @@ const links = [
 //   },
   {
     name: "LinkedIn",
-    username: "anushka-rawat23160900",
-    link: "https://www.linkedin.com/in/anushka-rawat23160900/",
+    username: "khushi-saxena-589a981b8",
+    link: "https://www.linkedin.com/in/khushi-saxena-589a981b8/",
     icon: <FaLinkedin style={{ width: 20, height: 20 }} />,
   },
 //   {

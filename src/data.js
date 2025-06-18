@@ -17,6 +17,18 @@ export const languages = [
       link: "",
       img: "/logos/c++.svg",
     },
+    {
+      name:"Kotlin",
+      desc: "Kotlin is a modern programming language that runs on the Java Virtual Machine (JVM). It is designed to be fully interoperable with Java, offering concise syntax and enhanced safety features, making it a popular choice for Android app development.",
+      link: "",
+      img: "/logos/kotlin_icon_130893.png",
+    },
+    {
+      name:"Typescript",
+      desc: "TypeScript is a superset of JavaScript that adds static typing, enhancing code quality and maintainability. It enables developers to catch errors early and provides better tooling support, making it ideal for large-scale applications.",
+      link: "",
+      img: "/logos/ts.svg",
+    }, 
   ];
   
   export const frontend = [
@@ -38,18 +50,24 @@ export const languages = [
       link: "https://www.nextjs.org",
       img: "/logos/tailwind-css-2.svg",
     },
-    {
-      name: "Shadcn",
-      desc: "Shadcn is a collection of re-usable components that you can copy and paste into your apps.",
-      link: "https://ui.shadcn.com/",
-      img: "/logos/shadcn.jpeg",
-    },
+    // {
+    //   name: "Shadcn",
+    //   desc: "Shadcn is a collection of re-usable components that you can copy and paste into your apps.",
+    //   link: "https://ui.shadcn.com/",
+    //   img: "/logos/shadcn.jpeg",
+    // },
     {
       name: "Redux & RTK",
       desc: "Shadcn is a collection of re-usable components that you can copy and paste into your apps.",
       link: "https://redux-toolkit.js.org/",
       img: "/logos/redux.svg",
     },
+    {
+      name:"Adriod",
+      desc: "Android is a mobile operating system based on the Linux kernel, designed primarily for touchscreen devices. It supports a wide range of applications and is known for its flexibility and customization options.",
+      link: "",
+      img: "/logos/Andriod.png",
+    }
     // {
     //   name: "Zustand",
     //   desc: "Shadcn is a collection of re-usable components that you can copy and paste into your apps.",
@@ -64,50 +82,50 @@ export const languages = [
     // },
   ];
   
-  export const backend = [
-    {
-      name: "Springboot",
-      desc: "Spring Boot is a Java-based framework that simplifies the development of production-ready applications. It offers built-in features like dependency injection, security, and data access, enabling rapid application development.",
-      link: "",
-      img: "/logos/spring.png",
-    },
-    // {
-    //   name: "Expressjs",
-    //   desc: "Shadcn is a collection of re-usable components that you can copy and paste into your apps.",
-    //   link: "https://expressjs.com/",
-    //   img: "/logos/expressjs-109.svg",
-    // },
-    // {
-    //   name: "Honojs",
-    //   desc: "Shadcn is a collection of re-usable components that you can copy and paste into your apps.",
-    //   link: "https://expressjs.com/",
-    //   img: "/logos/hono.svg",
-    // },
-    // {
-    //   name: "Prisma",
-    //   desc: "Shadcn is a collection of re-usable components that you can copy and paste into your apps.",
-    //   link: "https://expressjs.com/",
-    //   img: "/logos/prisma-white.svg",
-    // },
-    // {
-    //   name: "Postgresql",
-    //   desc: "Shadcn is a collection of re-usable components that you can copy and paste into your apps.",
-    //   link: "https://expressjs.com/",
-    //   img: "/logos/postgresql.svg",
-    // },
-    // {
-    //   name: "MongoDB",
-    //   desc: "MongoDB is a flexible NoSQL database, storing data in BSON documents for versatility. Its document-oriented approach and scalability make it ideal for diverse applications, simplifying development and handling large datasets efficiently.",
-    //   link: "https://www.mongodb.com/",
-    //   img: "/logos/mongodb-icon-2.svg",
-    // },
-    // {
-    //   name: "Cloudflare Workers",
-    //   desc: "Shadcn is a collection of re-usable components that you can copy and paste into your apps.",
-    //   link: "https://expressjs.com/",
-    //   img: "/logos/cloudflare-workers.svg",
-    // },
-  ];
+  // export const backend = [
+  //   {
+  //     name: "Springboot",
+  //     desc: "Spring Boot is a Java-based framework that simplifies the development of production-ready applications. It offers built-in features like dependency injection, security, and data access, enabling rapid application development.",
+  //     link: "",
+  //     img: "/logos/spring.png",
+  //   },
+  //   // {
+  //   //   name: "Expressjs",
+  //   //   desc: "Shadcn is a collection of re-usable components that you can copy and paste into your apps.",
+  //   //   link: "https://expressjs.com/",
+  //   //   img: "/logos/expressjs-109.svg",
+  //   // },
+  //   // {
+  //   //   name: "Honojs",
+  //   //   desc: "Shadcn is a collection of re-usable components that you can copy and paste into your apps.",
+  //   //   link: "https://expressjs.com/",
+  //   //   img: "/logos/hono.svg",
+  //   // },
+  //   // {
+  //   //   name: "Prisma",
+  //   //   desc: "Shadcn is a collection of re-usable components that you can copy and paste into your apps.",
+  //   //   link: "https://expressjs.com/",
+  //   //   img: "/logos/prisma-white.svg",
+  //   // },
+  //   // {
+  //   //   name: "Postgresql",
+  //   //   desc: "Shadcn is a collection of re-usable components that you can copy and paste into your apps.",
+  //   //   link: "https://expressjs.com/",
+  //   //   img: "/logos/postgresql.svg",
+  //   // },
+  //   // {
+  //   //   name: "MongoDB",
+  //   //   desc: "MongoDB is a flexible NoSQL database, storing data in BSON documents for versatility. Its document-oriented approach and scalability make it ideal for diverse applications, simplifying development and handling large datasets efficiently.",
+  //   //   link: "https://www.mongodb.com/",
+  //   //   img: "/logos/mongodb-icon-2.svg",
+  //   // },
+  //   // {
+  //   //   name: "Cloudflare Workers",
+  //   //   desc: "Shadcn is a collection of re-usable components that you can copy and paste into your apps.",
+  //   //   link: "https://expressjs.com/",
+  //   //   img: "/logos/cloudflare-workers.svg",
+  //   // },
+  // ];
   
   export const other = [
     {
@@ -122,12 +140,12 @@ export const languages = [
       link: "",
       img: "/logos/S3.png",
     },
-    {
-      name: "Docker",
-      desc: "Fast, disk space efficient package manager",
-      link: "https://pnpm.io/",
-      img: "/logos/docker.svg",
-    },
+    // {
+    //   name: "Docker",
+    //   desc: "Fast, disk space efficient package manager",
+    //   link: "https://pnpm.io/",
+    //   img: "/logos/docker.svg",
+    // },
     // {
     //   name: "Turbo repo",
     //   desc: "Fast, disk space efficient package manager",
@@ -165,22 +183,58 @@ export const languages = [
     },
     {
       name: "My Portfolio",
-      slug: "anushka",
+      slug: "Protfolio",
       desc: "The website you are currently on.",
       longDescription: "",
       liveLink: "",
       githubLink: "",
-      coverImg: "/projects/anushka.png",
+      coverImg: "/projects/khushi.png",
       imgs: [],
       screenshots: [],
       implementation: "",
       features: [],
-      timeline: "",
+      timeline: "2025",
       tech: [
         "/logos/tailwind-css-2.svg",
         "/logos/react-2.svg",
       "/logos/logo-javascript.svg",
     ],
+    },
+    {
+      name: "HR Console",
+      slug: "hr-console",
+      desc: "Developed employee and leave management modules with full CRUD operations and secure API integration. Implemented role-based access, automated notifications, and a user-friendly interface to streamline HR processes and improve operational efficiency",
+      longDescription: "",
+      liveLink: "https://play.google.com/store/apps/details?id=com.investmango.hrconsole&hl=en&pli=1",
+      githubLink: "",
+      coverImg: "/projects/HRconsole.jpeg",
+      imgs: [],
+      screenshots: [],
+      implementation: "",
+      features: [],
+      timeline: "2024",
+      tech: [
+        "/logos/Andriod.png",
+        "/logos/java.png",
+      ]
+    },
+    {
+      name: "Sanskar Mobile app",
+      slug: "sanskartvapp",
+      desc: "Developed OTT streaming applications for Android TV and mobile platforms. Integrated third-party playback SDKs, adaptive bitrate streaming, and social sharing features to deliver a seamless and responsive media experience across devices.",
+      longDescription: "",
+      liveLink: "https://play.google.com/store/apps/details?id=com.sanskar.tv&hl=en",
+      githubLink: "",
+      coverImg: "/projects/sanskartvapp.jpeg",
+      imgs: [],
+      screenshots: [],
+      implementation: "",
+      features: [],
+      timeline: "2023s",
+      tech: [
+        "/logos/Andriod.png",
+      "/logos/java.png",
+      ]
     },
     // {
     //   name: "Healthsynx",
@@ -267,20 +321,36 @@ export const languages = [
   
   export const experiences = [
     {
-      title: "Junior Software Development",
-      company: "Virtual Intelligence",
+      title: "Software Engineer",
+      company: "Bharuwa Solutions Pvt. Ltd",
       location: "Noida, India",
-      duration: "May 2024 - Present",
+      duration: "Apr 2025 - Present",
       description:
-        "At Virtual Intelligence, I worked as an Junior Software Development, juggling React.js, Tailwind, and  AWS Services to build and refine full-stack features. I contributed to the BMA Application , a lead Management application, and an admin panel, making things work (and work well). From crafting APIs to smoothing out UI/UX quirks, I wrote type-safe, scalable code while keeping performance snappy and architecture clean.",
+        "Led design and development of cross-platform mobile apps using React Native with high-performance standards Collaborated with backend teams to integrate Node.js and GraphQL APIs for seamless mobile experience.Implemented CI/CD pipelines and automated testing to ensure fast and reliable delivery.Mentored junior developers, conducted peer reviews, and maintained code quality through linting and unit testing.Architected reusable components and scalable systems following modern software design principles",
       skills: [
-        "React",
-        "Tailwind CSS",
-        "Shadcn",
-        "Redux/RTK",
-        "AWS Services(EC2, S3)",
+        "React Native",
+        "flutter",
+        "githubAction",
+        "Andriod Developer",
       ],
       logo: "/logos/engaze.svg",
+    },{
+      tittle:"Mobile App Developer (React Native)",
+      company:"Invest Mango",
+      location:"Noida , India",
+      duration:"May 2024- Apr 2025",
+      description:"Designed and built intuitive UI/UX for both Android and iOS platforms using React Native and Expo.Integrated RESTful APIs and Firebase for real-time data sync and authentication.Optimized performance using profiling tools and handled crash analytics for production builds.Collaborated in Agile teams, participating in sprint planning and client demos.",
+      skills:["React Native", "Redux", "REST APIs", "Git", "Firebase", "Andriod"],
+      logo: "/logos/engaze.svg",
     },
+    {
+      title:"Android Developer",
+      company:"Sanskar Info Private Ltd",
+      location:"Noida, India",
+      duration:"Jan 2023 - May 2024",
+      description:"Built native Android apps from scratch, following clean architecture and MVVM pattern.Integrated third-party SDKs for media playback, social sharing, and in-app messaging.Used Git for version control and handled builds and deployments via Android Studio.Engaged closely with UI/UX designers to bring wireframes into production-ready apps.",
+      skills:[ "Java", "Kotlin", "Android Studio", "SQLite", "Firebase"],
+      logo: "/logos/engaze.svg",
+    }
   ];
   

@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { backend, frontend, languages, other } from "../../data";
+import { frontend, languages, other } from "../../data";
 
 const categories = [
   { id: "languages", label: "Languages", data: languages },
   { id: "frontend", label: "Frontend", data: frontend },
-  { id: "backend", label: "Backend", data: backend },
   { id: "other", label: "Other Tools", data: other },
 ];
 
